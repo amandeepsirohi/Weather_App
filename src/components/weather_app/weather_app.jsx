@@ -10,7 +10,7 @@ import cloud from '../assets/cloud.png';
 import clear from '../assets/clear.png';
 
 export const Weather_app = () => {
-  let api_key = "da6ab3d29eb6d8e34414cb899ed1f3f9";
+  let api_key = "";
   const [wicon , setwincon] = useState(cloud);
 
   const search = async () =>
