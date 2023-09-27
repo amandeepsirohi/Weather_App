@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+    // if(data.weather[0].icon === "01d" || data.weather[0].icon === "01n")
+    // {
+    //     setwincon(clear);
+    // }
+    // if(data.weather[0].icon === "02d" || data.weather[0].icon === "02n")
+    // {
+    //     setwincon(cloud);
+    // }
+    // if(data.weather[0].icon === "03d" || data.weather[0].icon === "03n")
+    // {
+    //     setwincon(drizzle);
+    // }
+    // if(data.weather[0].icon === "04d" || data.weather[0].icon === "04n")
+    // {
+    //     setwincon(drizzle);
+    // }
+    // if(data.weather[0].icon === "09d" || data.weather[0].icon === "09n")
+    // {
+    //     setwincon(rain);
+    // }
+    // if(data.weather[0].icon === "10d" || data.weather[0].icon === "10n")
+    // {
+    //     setwincon(rain);
+    // }
+    // if(data.weather[0].icon === "13d" || data.weather[0].icon === "13n")
+    // {
+    //     setwincon(snow);
+    // }
+    // else
+    // {
+    //     setwincon(clear);
+    // }
